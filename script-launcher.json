@@ -1,0 +1,22 @@
+{
+	"project_name" : "Full test",
+	"description" : "Test project",
+	"steps" : [
+		{
+    		"label" : "List files",
+			"cmd" : "ls -lF"
+		},
+		{
+    		"label" : "Print working directory",
+			"cmd" : "pwd"
+		},
+		{
+    		"label" : "Show steps file",
+			"cmd" : "cat script-launcher.json"
+		},
+		{
+			"label" : "Intentional error",
+			"cmd" : "cat nonexistent_file"
+		}
+    ]
+}
