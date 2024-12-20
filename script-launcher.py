@@ -11,7 +11,7 @@ import sys
 import argparse
 
 title = "Script Launcher"
-subtitle = "Shell script orchestration in an optional Terminal user interface"
+subtitle = "Shell script orchestration in an optional terminal user interface"
 
 class StepList(Static):
     """Widget to display steps as buttons with status indicators."""
