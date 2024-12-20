@@ -3,15 +3,15 @@
 	"description" : "Test project",
 	"steps" : [
 		{
-    		"label" : "List files",
+    			"label" : "List files",
 			"cmd" : "ls -lF"
 		},
 		{
-    		"label" : "Print working directory",
+    			"label" : "Print working directory",
 			"cmd" : "pwd"
 		},
 		{
-    		"label" : "Show steps file",
+    			"label" : "Show steps file",
 			"cmd" : "cat script-launcher.json"
 		},
 		{
