@@ -22,6 +22,8 @@ Providing a JSON file on the command line is _mandatory_. The provided example f
 
 Script Launcher will present a terminal user interface by default. Each script will be represented as buttons in the left sidebar. The scripts may be executed in _any order_ by pressing the buttons. An example of this behaviour is show in Figure 2.
 
+If you want to see more or less information about your scripts' execution, try the `q` or `--quiet` flag to reduce noise and the `-v` or `--verbose` flag to present debugging information.
+
 ![Script Launcher partial execution](images/script-launcher-partial-exec.png?raw=true)
 __Figure 2__ Script Launcher showing execution of a single script out of order
 
