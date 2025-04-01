@@ -140,7 +140,6 @@ def main() -> None:
     """Main method."""
     
     # TODO:
-    #       - Fix Button labels to align left after execution
     # MAYBE:
     #       - Accept JSON on STDIN instead of file?
     parser = argparse.ArgumentParser(description="Run shell scripts named in a JSON file.")
